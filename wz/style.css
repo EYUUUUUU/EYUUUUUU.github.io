@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:'setkuku';
+    src: url(font/Italic.ttf);
+}
+@font-face {
+    font-family:'seshoujin';
+    src: url(font/ZQKZYT.ttf);
+}
+ul,li,body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lt {
+    float:left;
+}
+.rt {
+    float:right;
+}
+body {
+    margin: 0 auto;
+    max-width: 1600px;
+    background:#1d262a;
+}
+.content {
+    margin: 0 auto;
+}
+.top_bgr {
+    height:900px;
+    background:url(img/p1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+header {
+    height:80px;
+    background:#13171e;
+    opacity: 0.6;
+    line-height: 80px;
+}
+.logo {
+    margin-left:215px;
+    font-size: 24px;
+    z-index: 10;
+    color:#ffffff;
+    opacity: none;
+    float:left;
+}
+.ul {
+    margin: 0;
+    margin-left:720px;
+    float:left;
+    z-index: 10;
+    color:#FFFFFF;
+    font-size: 24px;
+}
+.ul li {
+    margin-left:40px;
+    z-index: 10;
+    float:left;
+}
+/*星空背景图文字颜色*/
+.texts {
+    font-family: 'seshoujin';
+    color:#FFFFFF;
+    margin-top:460px;
+    text-align: center;
+    background-image: -webkit-linear-gradient(left, #fff, #fff 5%, #999 10%, #fff 15%, #fff);
+    background-size: 200%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: anim 4s infinite;
+}
+.texts_header {
+    font-size: 22px;
+    margin: 25px 0;
+}
+.btn {
+    margin-top:100px;
+    text-align: center;
+}
+.btn_style {
+    border:3px solid #8a8d8f;
+    width:120px;
+    height:33px;
+    border-radius: 18px;
+    background:url(img/111.png) no-repeat 0 0;
+    color:#8a8d8f;
+    font-size: 22px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.btn_style:hover {
+    width:140px;
+    height:45px;
+    border:3px solid #a9a9aa;
+    border-radius: 22px;
+    color:#a9a9aa;
+    font-size: 28px;
+}
+.about_me {
+    height:700px;
+    background:#FFFFFF;
+    border-bottom:1px dashed #e1e1e1;
+}
+.title {
+    height:165px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    color:#5c5c5c;
+}
+.left_img {
+    width:50%;
+    height:240px;
+    float:left;
+}
+.left_img img {
+    margin-left:54%;
+    padding-top:15px;
+}
+.right_value {
+    height:240px;
+    padding-left:15px;
+    box-sizing: border-box;
+    font-family: 'STFangsong';
+    font-size: 20px;
+    font-weight: 100;
+    color:#717171;
+    width:50%;
+    float:left;
+}
+.right_value li {
+    margin-top: 40px;
+}
+.bottom_btn {
+    text-align: center;
+    clear: both;
+    padding-top:100px;
+}
+.about_bnt {
+    border: none;
+    width:285px;
+    height:80px;
+    margin-left:80px;
+    outline: none;
+    background:#FFFFFF;
+    font-size: 34px;
+    font-weight: 100;
+    color:#717171;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 5px  22px 5px #e1e1e1;
+}
+.about_bnt:hover {
+    background:#A9A9AA;
+    color:#FFFFFF;
+}
+.professional_skills {
+    position:relative;
+    height:485px;
+    border-bottom:1px dashed #e1e1e1;
+    background:#FFFFFF;
+}
+.skills {
+    color:#5d5c5c;
+}
+.professional li {
+    width:300px;
+    height:250px;
+    text-align: center;
+    float:left;
+    border-left:1px solid #5d5c5c;
+    box-sizing: border-box;
+}
+.professional li:first-child {
+    border-left:none;
+}
+.professional {
+    overflow: hidden;
+    padding:0 200px;
+}
+.personal_works {
+    width:100%;
+    height:1830px;
+    background:#FFFFFF;
+    border-bottom:1px dashed #e1e1e1;
+}
+.works {
+    width:100%;
+    padding:30px 215px;
+    box-sizing: border-box;
+}
+.works .works_imgOne {
+    width:100%;
+    height:100%;
+    transition: all 0.3s; 
+}
+.warks_imgs {
+    width:45%;
+    height:690px;
+    margin-top:30px;
+    transition: all 0.3s; 
+}
+.hobby {
+    height:2360px;
+    background:#FFFFFF;
+    font-size: 74px;
+    color:#5c5c5c;
+    font-weight: 100;
+    border-bottom:1px dashed #e1e1e1;
+}
+.hobby_img {
+    width:70%;
+    margin: auto;
+}
+.hobby_img li {
+    width:100%;
+    margin-bottom: 240px;
+}
+.hobby_img img {
+    width:70%;
+    transition: all 0.9s;
+}
+.graphy {
+    margin-left:170px;
+}
+.graphy_name {
+    padding-left:125px;
+    margin-top:-30px;
+}
+.footer {
+    height:900px;
+    background:#FFFFFF;
+}
+.address {
+    margin-top:130px;
+    width:100%;
+    position:relative;
+}
+.school {
+    width:300px;
+    text-align: center;
+    color:#5C5C5C;
+    padding-left:270px;
+    font-size: 18px;
+}
+.school p {
+    margin:10px 0;
+}
+.address_img {
+    position:absolute;
+    left:860px;
+    top:300px;
+    transition: all,0.3;
+}
+
+.address_img:hover {
+    transform: scale(1.2,1.2);
+}
+.left_deg:hover {
+    transform: rotate(-30deg) scale(1.1,1.1);
+}
+.right_deg:hover {
+    transform: rotate(30deg) scale(1.1,1.1);
+}
+.works img:hover {
+    transform: scale(1.3,1.3);
+}
+@-webkit-keyframes anim {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
