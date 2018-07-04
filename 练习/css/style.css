@@ -28,26 +28,20 @@ body {
     background-size: 100% 100%;
 }
 header {
-    height:80px;
+    color: #e1e1e1;
+    
+    height:3rem;
     background:#13171e;
     opacity: 0.6;
-    line-height: 80px;
+    line-height: 3rem;
 }
-.logo {
-    margin-left:215px;
-    font-size: 24px;
-    z-index: 10;
-    color:#ffffff;
-    opacity: none;
-    float:left;
-}
-.ul {
+.ul { 
+    display: inline;
     margin: 0;
     margin-left:720px;
     float:left;
-    z-index: 10;
     color:#FFFFFF;
-    font-size: 24px;
+    font-size: 1rem;
 }
 .ul li {
     margin-left:40px;
@@ -69,7 +63,6 @@ header {
     margin: 25px 0;
 }
 .btn {
-    margin-top:100px;
     text-align: center;
 }
 .btn_style {
